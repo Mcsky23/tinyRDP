@@ -1,0 +1,43 @@
+[package]
+name = "tinyrdp"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "A tiny native macOS menu bar RDP client"
+license = "MIT"
+
+[dependencies]
+anyhow = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+uuid = { version = "1", features = ["v4", "serde"] }
+
+[target.'cfg(target_os = "macos")'.dependencies]
+dispatch2 = "0.3"
+objc2 = "0.6"
+objc2-app-kit = { version = "0.3", default-features = false, features = [
+    "std", "objc2-core-foundation", "NSApplication", "NSRunningApplication",
+    "NSMenu", "NSMenuItem", "NSStatusBar", "NSStatusItem", "NSStatusBarButton",
+    "NSButton", "NSButtonCell", "NSControl", "NSCell", "NSTextField",
+    "NSSecureTextField", "NSFont", "NSColor", "NSWindow", "NSResponder",
+    "NSView", "NSGraphics", "NSImage", "NSScrollView", "NSClipView",
+    "NSScroller", "NSTableView", "NSTableColumn", "NSTableHeaderView", "NSAlert",
+    "NSUserInterfaceItemIdentification", "NSAccessibilityProtocols",
+    "NSBitmapImageRep", "NSImageRep",
+    "NSScreen", "NSEvent",
+    "NSPopUpButton",
+    "NSOpenPanel", "NSSavePanel", "NSPanel",
+] }
+objc2-foundation = "0.3"
+objc2-service-management = "0.3"
+objc2-local-authentication = "0.3"
+block2 = "0.6"
+security-framework = "3"
+libc = "0.2"
+
+[profile.release]
+opt-level = "s"
+lto = true
+codegen-units = 1
+strip = true
+panic = "abort"

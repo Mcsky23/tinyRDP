@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" fill="none" role="img" aria-label="tinyRDP connection mark">
+  <defs><linearGradient id="tile" x1="35" y1="20" x2="205" y2="240" gradientUnits="userSpaceOnUse"><stop stop-color="#215c96"/><stop offset="1" stop-color="#141f3b"/></linearGradient></defs>
+  <rect x="16" y="16" width="224" height="224" rx="52" fill="url(#tile)"/>
+  <g transform="translate(56 56) scale(8)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M6 2.5H4A2.25 2.25 0 0 0 1.75 4.75V13.25A2.25 2.25 0 0 0 4 15.5H6M12 2.5H14A2.25 2.25 0 0 1 16.25 4.75V13.25A2.25 2.25 0 0 1 14 15.5H12" stroke="#fff"/>
+    <path d="M5.75 9H12.25M9.75 6.5L12.25 9L9.75 11.5" stroke="#74e6d3"/>
+  </g>
+</svg>

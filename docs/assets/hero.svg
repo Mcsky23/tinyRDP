@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="490" viewBox="710 50 570 436" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">tinyRDP menu bar</title>
+  <desc id="desc">The tinyRDP menu showing the recent device, saved devices under Connect, Settings, and Exit, with the tinyRDP logo below.</desc>
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#215c96"/><stop offset="1" stop-color="#141f3b"/></linearGradient>
+    <linearGradient id="glass" x1="770" y1="130" x2="1080" y2="410" gradientUnits="userSpaceOnUse"><stop stop-color="#29354b"/><stop offset="1" stop-color="#1a2538"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="170%" height="190%"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000" flood-opacity=".28"/></filter>
+    <g id="mark" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M6 2.5H4A2.25 2.25 0 0 0 1.75 4.75V13.25A2.25 2.25 0 0 0 4 15.5H6M12 2.5H14A2.25 2.25 0 0 1 16.25 4.75V13.25A2.25 2.25 0 0 1 14 15.5H12"/>
+      <path d="M5.75 9H12.25M9.75 6.5L12.25 9L9.75 11.5"/>
+    </g>
+  </defs>
+  <rect x="710" y="50" width="570" height="436" rx="16" fill="#101827"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <rect x="746" y="76" width="468" height="42" rx="13" fill="#213046" stroke="#3a4e65"/>
+    <circle cx="770" cy="97" r="3" fill="#63748c"/><circle cx="782" cy="97" r="3" fill="#63748c"/><circle cx="794" cy="97" r="3" fill="#63748c"/>
+    <rect x="990" y="82" width="44" height="30" rx="7" fill="#40556a"/>
+    <use href="#mark" transform="translate(1000 85) scale(1.35)" color="#edf6ff"/>
+    <path d="M1076 92Q1084 84 1092 92M1079 96Q1084 91 1089 96M1083 100H1085" stroke="#a4b4c9" stroke-width="2" stroke-linecap="round"/>
+    <rect x="1120" y="91" width="23" height="12" rx="3" stroke="#a4b4c9" stroke-width="1.5"/><path d="M1146 95V99" stroke="#a4b4c9" stroke-width="2" stroke-linecap="round"/>
+    <text x="1179" y="102" fill="#d5dfed" font-size="14" text-anchor="middle">9:41</text>
+    <g filter="url(#shadow)">
+      <rect x="760" y="130" width="284" height="258" rx="15" fill="url(#glass)" stroke="#48566d"/>
+      <circle cx="786" cy="163" r="4" fill="#74e6d3"/>
+      <text x="803" y="170" fill="#f2f6fc" font-size="19" font-weight="500">Work PC</text>
+      <path d="M775 190H1029" stroke="#445168"/>
+      <rect x="771" y="204" width="262" height="43" rx="7" fill="#3779c7"/>
+      <text x="786" y="232" fill="#fff" font-size="19" font-weight="500">Connect</text>
+      <path d="M1012 220L1018 226L1012 232" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="786" y="281" fill="#e2eaf5" font-size="19">Settings</text>
+      <path d="M1012 268L1018 274L1012 280" stroke="#c1cee1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M775 306H1029" stroke="#445168"/>
+      <text x="786" y="346" fill="#e2eaf5" font-size="19">Exit</text>
+      <rect x="1035" y="203" width="207" height="142" rx="13" fill="#263348" stroke="#4b5d75"/>
+      <text x="1056" y="236" fill="#e2eaf5" font-size="17">Work PC</text>
+      <rect x="1045" y="248" width="187" height="40" rx="6" fill="#3779c7"/>
+      <text x="1056" y="274" fill="#fff" font-size="17" font-weight="500">Home server</text>
+      <text x="1056" y="319" fill="#e2eaf5" font-size="17">Lab</text>
+    </g>
+    <path d="M746 415H1242" stroke="#26364b"/>
+    <rect x="746" y="432" width="32" height="32" rx="8" fill="url(#brand)"/>
+    <use href="#mark" transform="translate(753 439)" color="#fff"/>
+    <path d="M5.75 9H12.25M9.75 6.5L12.25 9L9.75 11.5" transform="translate(753 439)" stroke="#74e6d3" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="792" y="455" fill="#e2eaf5" font-size="21" font-weight="600">tinyRDP</text>
+  </g>
+</svg>

@@ -1,0 +1,5 @@
+/target/
+/dist/
+.DS_Store
+/docs/guide.md
+__pycache__
